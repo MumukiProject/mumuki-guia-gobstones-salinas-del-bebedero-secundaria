@@ -1,0 +1,1 @@
+El área de un rectángulo (la forma del piletón) se calcula multiplicando la base por la altura.

@@ -1,0 +1,16 @@
+procedure Excavar() {
+  if (hayBolitas(Rojo)){
+    Sacar(Rojo)
+  }
+  Poner(Azul)
+  if (puedeMover(Este)){
+    Mover(Este)
+  }else{
+    if (puedeMover(Norte)){
+      IrAlBorde(Oeste)
+      Mover(Norte)
+    }else{
+      
+    }
+  }
+}

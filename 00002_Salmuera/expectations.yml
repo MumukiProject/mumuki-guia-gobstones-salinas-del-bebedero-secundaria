@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:ExcavarTerreno
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:ExcavarTerreno
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ExcavarTerreno
+  inspection: Uses:Excavar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ExcavarTerreno
+  inspection: UsesRepeat
