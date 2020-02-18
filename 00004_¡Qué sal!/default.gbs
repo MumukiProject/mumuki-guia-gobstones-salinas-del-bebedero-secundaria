@@ -1,0 +1,6 @@
+program {
+	SacarSal()
+	Mover(Este)
+	CargarSal()
+}
+

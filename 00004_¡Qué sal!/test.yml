@@ -1,0 +1,27 @@
+interactive: false
+check_head_position: false
+examples:
+ - initial_board: |
+     GBB/1.0
+     size 2 1
+     cell 0 0 Azul 4 Verde 1 
+     cell 1 0 Rojo 2 Verde 3
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 2 1
+     cell 0 0 Verde 1 
+     cell 1 0 Rojo 2 Azul 3 Verde 3
+     head 0 0
+ - initial_board: |
+     GBB/1.0
+     size 2 1
+     cell 0 0 Verde 1 Azul 5 
+     cell 1 0 Rojo 2 Verde 4
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 2 1
+     cell 0 0 Verde 1 
+     cell 1 0 Rojo 2 Azul 4 Verde 4
+     head 0 0
