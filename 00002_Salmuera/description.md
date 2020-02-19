@@ -2,4 +2,4 @@
 
 Una vez marcado el terreno, vamos a excavar para que cuando llueva :cloud_rain:, se formen piletones :sunrise:. De esta forma, la sal se limpia de las impurezas que le hacen mal a los humanos.
 
-> Definí e invocá el procedimiento `ExcavarTerreno` para `Excavar` tantas veces como el **área** del piletón que queremos crear. Pssst, si no sabés cómo se calcula, mirá la pista. :wink:
+> Definí e invocá el procedimiento `ExcavarTerreno` para `Excavar` tantas veces como el **área** del piletón que queremos crear. Para eso, necesitarás usar la _base_ (`número de bolitas verdes`) y la _altura_ (`número de bolitas negras`).
