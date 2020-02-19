@@ -1,9 +1,3 @@
 function camionTieneEspacio(){
   return (nroBolitas(Azul) /= nroBolitas(Verde))
 }
-
-program {
-	SacarSal()
-	Mover(Este)
-	CargarSal()
-}
